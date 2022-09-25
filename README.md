@@ -75,20 +75,20 @@ The size, image count, change price, and price variables were the most relevant.
 ## Algorithms
 A Decision Tree, Random Forest, K-nearest neighbor, and Linear Regression models were applied. The training data was used to fit the model. In an intent to improve the results the output variable was made categorical using bins of 5 for the number of sweaters, but this did not improve the model significantly. Each model was hyper tuned using a grid search method, and the best result was the Random Forest model. This model had the least number of sweaters off by of 35 which implies the model is possibly not predicting well. 
 
-#### Model: Random Forest
+### Model: Random Forest
 ![alt text](https://github.com/natvalenz/uglyXmas/blob/main/Picture15.png)
 
 The model is not performing well it is overfitting.
 
 
-#### Hyperparameter Tuning: Random Forest
+### Hyperparameter Tuning: Random Forest
 ![alt text](https://github.com/natvalenz/uglyXmas/blob/main/Picture16.png)
 ![alt text](https://github.com/natvalenz/uglyXmas/blob/main/Picture17.png)
 
 Although the model was tuned, the overfitting has not been corrected.
 
 
-#### Model Selection: Random Forest
+### Model Selection: Random Forest
 ![alt text](https://github.com/natvalenz/uglyXmas/blob/main/Picture18.png)
 
 Although the model was tuned, the overfitting has not been corrected.
